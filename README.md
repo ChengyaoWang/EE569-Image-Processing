@@ -5,7 +5,7 @@ Type: Course Work
 
 Languange: C++
 
-Related Algorithms & Topics (Continuous Updating):
+Related Algorithms & Topics (Updated after the corresponding grade comes out):
   - Assignment 1:
     - Demosaicing:
       - Bilinear interpolation
