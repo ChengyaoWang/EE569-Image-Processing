@@ -1,4 +1,4 @@
-# EE569-Image-Processing# EE660 Project
+# EE569-Image-Processing
 Affiliated course: USC EE569, Introduction to Digital Image Processing, given in 20 spring semester
 
 Type: Course Work
