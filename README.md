@@ -25,7 +25,7 @@ Related Algorithms & Topics (Continuously updating after the corresponding grade
       - F1-score calculation for edge detectors (self-implemented)
     - Digital Half-Toning:
       - Dithering
-        - Naive Thresholding (Fixed T / Random T)
+        - Naive Thresholding (Fixed T & Uniform Random T)
         - Dithering index matrix (Shifting Mask)
       - Error Diffusion (Sepentime Traversal):
         - Floyd-Steinberg's, JJN's, Stucki's error diffusion matrix / kernel.
