@@ -24,11 +24,12 @@ Related Algorithms & Topics (Continuously updating after the corresponding grade
       - Structured edge detectors (OpenCV)
       - F1-score calculation for edge detectors (self-implemented)
     - Digital Half-Toning:
-      - Naive Thresholding (Fixed T / Random T)
-      - Dithering index matrix (Shifting Mask)
-    - Error Diffusion (Sepentime Traversal):
-      - Floyd-Steinberg's, JJN's, Stucki's error diffusion matrix / kernel.
-      - Gray scale images, colored images by seperate diffusion & MBVQ-based diffusion.
+      - Dithering
+        - Naive Thresholding (Fixed T / Random T)
+        - Dithering index matrix (Shifting Mask)
+      - Error Diffusion (Sepentime Traversal):
+        - Floyd-Steinberg's, JJN's, Stucki's error diffusion matrix / kernel.
+        - Gray scale images, colored images by seperate diffusion & MBVQ-based diffusion.
 
 
 Dependencies:
