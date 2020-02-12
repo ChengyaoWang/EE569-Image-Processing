@@ -3,7 +3,7 @@ Affiliated course: USC EE569, Introduction to Digital Image Processing, given in
 
 Type: Course Work
 
-Languange: C++
+Languange: C++11
 
 Related Algorithms & Topics (Continuously updating after the corresponding grade comes out):
   - Assignment 1:
@@ -16,7 +16,19 @@ Related Algorithms & Topics (Continuously updating after the corresponding grade
     - Denoising:
       - Uniform Kernel, Gaussain Kernel
       - Bilateral Kernel
-      - Non-Local-Means (Self-implemented), BM3D (OpenCV)
+      - Non-Local-Means (self-implemented), BM3D (OpenCV)
+  - Assignment 2:
+    - Edge Detection:
+      - Sobel edge detectors (self-implemented)
+      - Canny edge detectors (OpenCV)
+      - Structured edge detectors (OpenCV)
+      - F1-score calculation for edge detectors (self-implemented)
+    - Digital Half-Toning:
+      - Naive Thresholding (Fixed T / Random T)
+      - Dithering index matrix (Shifting Mask)
+    - Error Diffusion (Sepentime Traversal):
+      - Floyd-Steinberg's, JJN's, Stucki's error diffusion
+      - Gray scale images, colored images by seperate diffusion & MBVQ-based diffusion.
 
 
 Dependencies:
