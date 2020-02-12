@@ -27,7 +27,7 @@ Related Algorithms & Topics (Continuously updating after the corresponding grade
       - Naive Thresholding (Fixed T / Random T)
       - Dithering index matrix (Shifting Mask)
     - Error Diffusion (Sepentime Traversal):
-      - Floyd-Steinberg's, JJN's, Stucki's error diffusion
+      - Floyd-Steinberg's, JJN's, Stucki's error diffusion matrix / kernel.
       - Gray scale images, colored images by seperate diffusion & MBVQ-based diffusion.
 
 
