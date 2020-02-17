@@ -30,6 +30,7 @@ Related Algorithms & Topics (Continuously updating after the corresponding grade
       - Error Diffusion (Sepentime Traversal):
         - Floyd-Steinberg's, JJN's, Stucki's error diffusion matrix / kernel.
         - Gray scale images, colored images by seperate diffusion & MBVQ-based diffusion.
+       
 (Starting From Assignment 3, APIs will be more Standard)
 
 
