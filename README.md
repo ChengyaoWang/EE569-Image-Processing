@@ -3,7 +3,7 @@ Affiliated course: USC EE569, Introduction to Digital Image Processing, given in
 
 Type: Course Work
 
-Languange: C++11, Python (Plotting)
+Languange: C++11 (99%+), Python (Plotting)
 
 Related Algorithms & Topics (Continuously updating after the corresponding grade comes out):
   - Assignment 1:
