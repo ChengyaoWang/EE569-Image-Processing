@@ -31,7 +31,18 @@ Related Algorithms & Topics (Continuously updating after the corresponding grade
         - Floyd-Steinberg's, JJN's, Stucki's error diffusion matrix / kernel.
         - Gray scale images, colored images by seperate diffusion & MBVQ-based diffusion.
        
-(Starting From Assignment 3, APIs will be more Standard & Conform)
+  - Assignment 3:
+    - Geometric Transformation
+    - Affine & Projective Transfomration
+      - Image Stitching Using SURF+FLANN for control point detection
+    - Binary Image Morphological Transformation
+      - Thinning, Shrinking, Skeletonizing
+      - Star number counting, star size counting
+      - PCB analysis, detecting wires & holes
+      - Defection detection & completion
+    Additional works:
+    - Matrix calculation Toolbox
+      - Matrix allocation, Mat-Mat/Vec-Mat/Mat multiplication, transpose
 
 
 Dependencies:
