@@ -3,8 +3,7 @@ Affiliated course: USC EE569, Introduction to Digital Image Processing, given in
 
 Type: Course Work
 
-Languange: C++11  (Major Language);
-	   Python (Subsidiary script for validating numerical outputs & Visualization);
+Languange: C++11  (Major Language); Python (Subsidiary script for validating numerical outputs & Visualization);
 
 Related Algorithms & Topics (Updates everytime after due date):
   - Assignment 1:
