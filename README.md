@@ -50,6 +50,7 @@ Related Algorithms & Topics (Updates everytime after due date):
       - Implemented ML Algorithm: K-Means (Naive Start & K-Means++), PCA
       - Called ML Algorithm: SVM / Kernel Machine, Randorm Forest
     - Texture Segmentation
+      - Lowe's Filter + K-Means
     - SIFT feature extraction & Feature Matching
     - Additional Works:
       - Utilization of data structure in std
