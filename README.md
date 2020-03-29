@@ -40,6 +40,7 @@ Related Algorithms & Topics (Updates everytime after due date):
       - Star number counting, star size counting
       - PCB analysis, detecting wires & holes
       - Defection detection & completion
+    
     Additional works:
     - Matrix calculation Toolbox
       - Matrix allocation, Mat-Mat/Vec-Mat/Mat multiplication, transpose
@@ -51,7 +52,8 @@ Related Algorithms & Topics (Updates everytime after due date):
       - Called ML Algorithm: SVM / Kernel Machine, Randorm Forest
     - Texture Segmentation
     - SIFT feature extraction & Feature Matching
-    Additional Works:
+   
+   Additional Works:
       - Utilization of data structure in std
       - API encapsulation & OOP programming
       - Refinement of Matrix_ToolBox / IO functions / Image Operations.
