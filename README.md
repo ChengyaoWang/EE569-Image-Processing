@@ -44,7 +44,16 @@ Related Algorithms & Topics (Updates everytime after due date):
     - Matrix calculation Toolbox
       - Matrix allocation, Mat-Mat/Vec-Mat/Mat multiplication, transpose
 
+  - Assignment 4:
+    - (Image Based) Texture Classfication
+      - Lowe's Filters used for feature extraction
+      - Implement ML Algorithm: K-Means (Naive Start & K-Means++), PCA
+      - Called ML Algorithm: SVM / Kernel Machine, Randorm Forest
+    - Texture Segmentation
+    - SIFT feature extraction & Feature Matching
+    Additional Works:
+    - API encapsulation & OOP programming
 
 Dependencies:
 
-  OpenCV C++ Library
+  OpenCV C++ Library / Eigen3 Library
