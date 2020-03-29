@@ -52,9 +52,9 @@ Related Algorithms & Topics (Updates everytime after due date):
     - Texture Segmentation
     - SIFT feature extraction & Feature Matching
     Additional Works:
-    - Utilization of data structure in std
-    - API encapsulation & OOP programming
-    - Refinement of Matrix_ToolBox / IO functions / Image Operations.
+      - Utilization of data structure in std
+      - API encapsulation & OOP programming
+      - Refinement of Matrix_ToolBox / IO functions / Image Operations.
 
 Dependencies:
 
