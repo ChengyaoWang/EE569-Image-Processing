@@ -40,11 +40,23 @@ Related Algorithms & Topics (Updates everytime after due date):
       - Star number counting, star size counting
       - PCB analysis, detecting wires & holes
       - Defection detection & completion
-    Additional works:
-    - Matrix calculation Toolbox
-      - Matrix allocation, Mat-Mat/Vec-Mat/Mat multiplication, transpose
+    - Additional works:
+      - Matrix calculation Toolbox
+        - Matrix allocation, Mat-Mat/Vec-Mat/Mat multiplication, transpose
 
+  - Assignment 4:
+    - (Image Based) Texture Classfication
+      - Lowe's Filters used for feature extraction
+      - Implemented ML Algorithm: K-Means (Naive Start & K-Means++), PCA
+      - Called ML Algorithm: SVM / Kernel Machine, Randorm Forest
+    - Texture Segmentation
+      - Lowe's Filter + K-Means
+    - SIFT feature extraction & Feature Matching
+    - Additional Works:
+      - Utilization of data structure in std
+      - API encapsulation & OOP programming
+      - Refinement of Matrix_ToolBox / IO functions / Image Operations.
 
 Dependencies:
 
-  OpenCV C++ Library
+  OpenCV C++ Library / Eigen3 Library
