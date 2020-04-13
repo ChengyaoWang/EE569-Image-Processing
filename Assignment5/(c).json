@@ -1,0 +1,104 @@
+{
+    "Model": "LeNet5",
+    "Model_Size_Trainable": 62006,
+    "Model_Size_Total": 62006,
+    "Batch_Size": 128,
+    "weight_init": "Default",
+    "total_epoch": 300,
+    "device": "cuda",
+    "train_transform": [
+        "ToTensor()",
+        "Normalize(mean=(0.5, 0.5, 0.5), std=(1, 1, 1))"
+    ],
+    "test_transform": [
+        "ToTensor()",
+        "Normalize(mean=(0.5, 0.5, 0.5), std=(1, 1, 1))"
+    ],
+    "Model Structure": [
+        "(conv1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))",
+        "(maxpool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+        "(conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))",
+        "(maxpool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+        "(fc1): Linear(in_features=400, out_features=120, bias=True)",
+        "(fc2): Linear(in_features=120, out_features=84, bias=True)",
+        "(fc3): Linear(in_features=84, out_features=10, bias=True)"
+    ],
+    "Loss Function": "CrossEntropyLoss",
+    "Optimizer": {
+        "Type": "SGD",
+        "State": {},
+        "param_groups": {
+            "lr": 0.001,
+            "momentum": 0.9,
+            "dampening": 0,
+            "weight_decay": 0.005,
+            "nesterov": false,
+            "initial_lr": 0.001,
+            "params": [
+                140321020431168,
+                140321020431240,
+                140321020431096,
+                140321020431456,
+                140321020431600,
+                140321020431744,
+                140321020431960,
+                140321020432032,
+                140321020432176,
+                140321020432248
+            ]
+        }
+    },
+    "lr_Scheduler": {
+        "Type": "MultiStepLR",
+        "State": {
+            "milestones": {
+                "500": 1
+            },
+            "gamma": 0.1,
+            "base_lrs": [
+                0.001
+            ],
+            "last_epoch": 0,
+            "_step_count": 1,
+            "_get_lr_called_within_step": false,
+            "_last_lr": [
+                0.001
+            ]
+        }
+    },
+    "Dataset": "CIFAR10",
+    "TrainingTime": "0:24:45.533013",
+    "InferenceTime": "0:00:00.519974",
+    "Performance": {
+        "Best_Train": 81.994,
+        "Final_Train": 81.834,
+        "Best_Test": 67,
+        "Final_Test": 66.11,
+        "Best_Loss": 895.5107538700104,
+        "Final_Loss": 228.2771824002266
+    },
+    "Class Performance": {
+        "plane": 68.8,
+        "car": 81.7,
+        "bird": 47.1,
+        "cat": 47.5,
+        "deer": 69.1,
+        "dog": 55.1,
+        "frog": 72.9,
+        "horse": 69,
+        "ship": 78.4,
+        "truck": 71.5
+    },
+    "Confusion Matrix": {
+        "plane": "[688.0, 40.0, 45.0, 32.0, 46.0, 8.0, 8.0, 13.0, 81.0, 39.0]",
+        "car": "[14.0, 817.0, 6.0, 22.0, 8.0, 6.0, 14.0, 5.0, 31.0, 77.0]",
+        "bird": "[68.0, 10.0, 471.0, 85.0, 145.0, 94.0, 63.0, 36.0, 16.0, 12.0]",
+        "cat": "[22.0, 21.0, 69.0, 475.0, 82.0, 192.0, 70.0, 33.0, 12.0, 24.0]",
+        "deer": "[19.0, 5.0, 49.0, 68.0, 691.0, 42.0, 46.0, 58.0, 17.0, 5.0]",
+        "dog": "[13.0, 7.0, 45.0, 223.0, 75.0, 551.0, 27.0, 52.0, 2.0, 5.0]",
+        "frog": "[10.0, 18.0, 37.0, 68.0, 78.0, 34.0, 729.0, 9.0, 5.0, 12.0]",
+        "horse": "[9.0, 10.0, 31.0, 53.0, 98.0, 77.0, 11.0, 690.0, 4.0, 17.0]",
+        "ship": "[47.0, 56.0, 12.0, 25.0, 14.0, 7.0, 7.0, 6.0, 784.0, 42.0]",
+        "truck": "[26.0, 143.0, 6.0, 26.0, 8.0, 12.0, 12.0, 15.0, 37.0, 715.0]"
+    }
+}
