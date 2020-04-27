@@ -57,6 +57,14 @@ Related Algorithms & Topics (Updates everytime after due date):
       - API encapsulation & OOP programming
       - Refinement of Matrix_ToolBox / IO functions / Image Operations.
 
+  - Assignment 5:
+    - Convolutional Neural Network Training
+    - Model: LeNet5, ResNetv1 (for CIFAR & ImageNet)
+    - Dataset: CIFAR10
+    - Additional Works:
+      - Configuration & Progress Recorder in JSON format
+    - Follow up please refer to my other Repo.
+
 Dependencies:
 
   OpenCV C++ Library / Eigen3 Library
