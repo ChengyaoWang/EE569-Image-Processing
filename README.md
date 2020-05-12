@@ -63,8 +63,16 @@ Related Algorithms & Topics (Updates everytime after due date):
     - Dataset: CIFAR10
     - Additional Works:
       - Configuration & Progress Recorder in JSON format
+      - Replicating Famous CNNs: SqueezeNet, MobileNetv1 & Network In Network
     - Follow up please refer to my other Repo.
 
+  - Assignment 6:
+    - Subspace Sucessive Learning (SSL) for image classification
+    - Dataset: CIFAR10
+    - Additional Works:
+      - Multi-threading & Multi-processing in Python
+      - Use of Google Cloud Platform
+      
 Dependencies:
 
   OpenCV C++ Library / Eigen3 Library
