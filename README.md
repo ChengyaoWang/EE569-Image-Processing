@@ -1,11 +1,13 @@
-# EE569-Image-Processing
+# USC EE569 - Introduction to Image Processing
 Affiliated course: USC EE569, Introduction to Digital Image Processing, given in 20 spring semester
 
 Type: Course Work
 
-Languange: C++11  (Major Language); Python (Subsidiary script for validating numerical outputs & Visualization);
+Languange:
+  - C++11  (Major Language)
+  - Python (Subsidiary script for validating numerical outputs & Visualization);
 
-Related Algorithms & Topics (Updates everytime after due date):
+Related Algorithms & Topics:
   - Assignment 1:
     - Demosaicing:
       - Bilinear interpolation
@@ -30,7 +32,6 @@ Related Algorithms & Topics (Updates everytime after due date):
       - Error Diffusion (Sepentime Traversal):
         - Floyd-Steinberg's, JJN's, Stucki's error diffusion matrix / kernel.
         - Gray scale images, colored images by seperate diffusion & MBVQ-based diffusion.
-       
   - Assignment 3:
     - Geometric Transformation
     - Affine & Projective Transfomration
@@ -43,7 +44,6 @@ Related Algorithms & Topics (Updates everytime after due date):
     - Additional works:
       - Matrix calculation Toolbox
         - Matrix allocation, Mat-Mat/Vec-Mat/Mat multiplication, transpose
-
   - Assignment 4:
     - (Image Based) Texture Classfication
       - Lowe's Filters used for feature extraction
@@ -53,19 +53,17 @@ Related Algorithms & Topics (Updates everytime after due date):
       - Lowe's Filter + K-Means
     - SIFT feature extraction & Feature Matching
     - Additional Works:
-      - Utilization of data structure in std
+      - Utilization of data structures in std (std::Vector)
       - API encapsulation & OOP programming
       - Refinement of Matrix_ToolBox / IO functions / Image Operations.
-
   - Assignment 5:
     - Convolutional Neural Network Training
-    - Model: LeNet5, ResNetv1 (for CIFAR & ImageNet)
+    - Model: LeNet5, ResNetv1 (for CIFAR10 )
     - Dataset: CIFAR10
     - Additional Works:
       - Configuration & Progress Recorder in JSON format
       - Replicating Famous CNNs: SqueezeNet, MobileNetv1 & Network In Network
     - Follow up please refer to my other Repo.
-
   - Assignment 6:
     - Subspace Sucessive Learning (SSL) for image classification
     - Dataset: CIFAR10
