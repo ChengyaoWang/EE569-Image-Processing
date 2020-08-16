@@ -1,11 +1,12 @@
-# USC EE569 - Introduction to Image Processing
-Affiliated course: USC EE569, Introduction to Digital Image Processing, given in 20 spring semester
+# USC EE569 - Introduction to Image Processing 20 Spring
 
 Type: Course Work
 
 Languange:
   - C++11  (Major Language)
   - Python (Subsidiary script for validating numerical outputs & Visualization);
+
+For image results, please refer to the PDF reports.
 
 Related Algorithms & Topics:
   - Assignment 1:
